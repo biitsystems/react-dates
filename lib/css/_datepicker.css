@@ -284,7 +284,7 @@
   color: #20272f;
   background: #fff;
   font-weight: 600;
-  font-family: AvenirNextLTPro-Regular
+  font-family: AvenirNextLTPro-Demi
 }
 .CalendarDay__default:hover,
 .CalendarDay__hovered_offset {
@@ -389,7 +389,7 @@
   padding-bottom: 37px;
   caption-side: initial;
   font-size: 13px;
-  font-family: AvenirNextLTPro-Regular;
+  font-family: AvenirNextLTPro-Medium;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -526,7 +526,7 @@
 }
 .DayPicker {
   background: #fff;
-  position: relative;
+  position: absolute;
   text-align: left
 }
 .DayPicker__horizontal {
@@ -539,7 +539,7 @@
   visibility: hidden
 }
 .DayPicker__withBorder {
-  box-shadow: 0 2px 6px rgba(0,0,0,.05),0 0 0 1px rgba(0,0,0,.07);
+  box-shadow: 0 2px 24px 0 rgba(148,160,173,.36);
   border-radius: 3px
 }
 .DayPicker_portal__horizontal {

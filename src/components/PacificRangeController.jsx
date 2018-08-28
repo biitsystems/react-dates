@@ -170,10 +170,7 @@ const defaultProps = {
 };
 
 moment.updateLocale('en', {
-  week: {
-    dow: 0,
-  },
-  weekdaysMin: 'M_T_W_T_F_S_S'.split('_')
+  weekdaysMin: 'S_M_T_W_T_F_S'.split('_')
 });
 
 const { colors } = require('./../styles/vars');
